@@ -1,0 +1,149 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+    font-family: 'Overpass', sans-serif;
+
+
+   
+}
+p{
+    line-height: 1.2rem;
+    font-weight: 400;
+
+    
+}
+.container{
+    text-overflow: none;
+    max-width: 377px;
+    min-width: 300px;
+    width: 70%;
+    background-color: hsl(213, 19%, 18%);
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 5px 10px rgba(255,255,255,0.3);
+}
+
+.info,.info-2{
+    line-height: 25px;
+    color: rgba(255,255,255,0.4);
+    margin-left: 20px;
+}
+.heading{
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+.container-rating{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.star-image{
+    width: 20px;
+    background-color: rgba(255,255,255,0.1);
+    text-align: center;
+    padding: 10px;
+    border-radius: 50%;
+    color: hsl(217, 12%, 63%);
+    cursor: pointer;
+    margin-left: 20px;
+}
+.star-image:hover{
+    background-color: rgba(255,255,255,0.8);
+}
+
+.rating{
+    
+    background-color: rgba(255,255,255,0.1);
+    padding: 15px 20px;
+    border-radius: 50%;
+    color: hsl(217, 12%, 63%);
+    cursor: pointer;
+    animation:;
+}
+.rating:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+    transition: all 300ms ease;
+}
+
+
+.rating:active,
+.rating.active
+{
+    background-color: hsl(25, 97%, 53%);
+    transition: all 300ms ease;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+
+}
+button{
+    text-align: center;
+    padding: 15px 150px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: hsl(25, 97%, 53%);
+    font-weight: bold;
+    border-radius: 25px;
+    border: none;
+    
+
+    /* padding: 10px 100px; */
+}
+button:hover{
+    background-color: hsl(25, 97%, 53%);
+    color:white ;
+    transition: all 300ms ease;
+    
+}
+
+.p{
+   
+}
+
+.image-respond{
+    display: flex;
+    justify-content: center;
+}
+.respond{
+    background-color: hsl(217, 12%, 63%,0.1);
+    
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0;
+    margin-top: 30px;
+    color: hsl(25, 97%, 53%);
+    /* border-radius: 40px; */
+
+    /* display: flex; */
+    /* justify-content: center; */
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+
+
+.container3{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+@media  (min-width:300px){
+    .btn{
+        padding: 15px 120px;
+    }
+}
